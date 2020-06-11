@@ -1,0 +1,41 @@
+name: Los Angeles Unified School District Board of Education
+description: A Custom theme for Drupal 8 using Tailwind.
+# core: 8.x
+type: theme
+base theme: tailwindcss
+
+regions:
+  header_left: 'Header Left section'
+  header_middle: 'Header Middle Section'
+  header_right: 'Header Right Section'
+
+  site_branding_area: 'Logo section'
+  navigation_area: 'Navigation Section'
+  search_area: 'Search Section'
+
+  content_left_area: 'Content Left Section'
+  content_right_area: 'Content Right Section'
+
+  board_member_area: 'Board Member Section'
+
+  sidebar_first: 'Sidebar First Area'
+  content: 'Content Area'
+  sidebar_second: 'Sidebar Second Area'
+
+  footer_top_left_area: 'Footer Top Left Section'
+  footer_top_middle_area: 'Footer Top middle Section'
+  footer_top_right_area: 'Footer Top Right Section'
+  footer_top_bottom_left_area: 'Footer Top Bottom Left Section'
+  footer_top_bottom_right_area: 'Footer Top Bottom Right Section'
+
+  footer_bottom: 'Footer Bottom Section'
+
+
+libraries:
+  - tailwindcss/global-styling
+
+# Information added by Drupal.org packaging script on 2019-06-18
+version: '8.x-2.4'
+core: '8.x'
+project: 'lausd'
+datestamp: 1560861196
